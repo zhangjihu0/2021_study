@@ -4,8 +4,6 @@
  * 输入 head=[1,1,2]
  * 输出 [1,2]
 */
-
-
 function ListNode(val, next) {
     this.val = (val == undefined ? 0 : val)
     this.next = (next == undefined ? null : next)

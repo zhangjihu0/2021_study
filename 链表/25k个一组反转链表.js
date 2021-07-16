@@ -70,7 +70,6 @@ var reverse = function (head, n) {
     //pre满足反转条件。将pre清空，截取
     pre = null;
     //以上为验证当前范围是否满足反转条件
-
     while (cnt--) {
         let next = cur.next;
         cur.next = pre;

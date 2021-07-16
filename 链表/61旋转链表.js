@@ -24,7 +24,6 @@ const head = {
  * @param {*} k 
  */
 var rotateRight = function (head, k) {
-
     //1.判断我们的链表是否为空
     if (!head) return null;
     //2.将我们的链表的尾部连接到我们链表的头部，为了将链表穿成环
